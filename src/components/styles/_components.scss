@@ -1,0 +1,38 @@
+.container {
+  margin: 0 48px 0 48px;
+}
+.link {
+  @include link();
+}
+h2 {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 150px;
+  letter-spacing: 12px;
+  margin: 0;
+  line-height: 168px;
+}
+
+h3 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+h5 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin: 0;
+}

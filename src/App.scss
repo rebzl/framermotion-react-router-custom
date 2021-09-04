@@ -1,0 +1,12 @@
+@import "./components/styles/font";
+@import "./components/styles/variables";
+@import "./components/styles/mixins";
+@import "./components/styles/components";
+
+* {
+  font-family: "Montserrat", serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
