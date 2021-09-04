@@ -1,0 +1,30 @@
+@import "../styles/variables";
+@import "../styles/mixins";
+@import "../styles/components";
+
+.banner-container {
+  .banner {
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    .text {
+      @include flex(column, center, center);
+      height: inherit;
+      padding: 0 48px 0;
+      h2 {
+        font-family: "Montserrat";
+        color: white;
+        font-weight: 100;
+      }
+      .link {
+        color: white;
+        font-size: 24px;
+      }
+    }
+  }
+  .banner1 {
+    background-image: url("../../images/img8.jpg");
+    background-color: #43555a;
+    background-blend-mode: multiply;
+  }
+}
